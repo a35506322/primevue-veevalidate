@@ -1,5 +1,9 @@
-<script setup></script>
+<script setup>
+import { ref, onMounted, watch } from 'vue';
+import { useRouter, useRoute } from 'vue-router';
 
-<template>
-  <Button label="Submit"></Button>
-</template>
+const router = useRouter();
+const route = useRoute();
+</script>
+
+<template>Home</template>

@@ -1,19 +1,21 @@
-import './assets/main.scss'
+import './assets/main.scss';
 
-import { createApp } from 'vue'
-import { createPinia } from 'pinia'
-import PrimeVue from 'primevue/config'
-import Button from 'primevue/button'
+import { createApp } from 'vue';
+import { createPinia } from 'pinia';
+import PrimeVue from 'primevue/config';
+import Button from 'primevue/button';
+import TabMenu from 'primevue/tabmenu';
 
-import App from './App.vue'
-import router from './router'
+import App from './App.vue';
+import router from './router';
 
-const app = createApp(App)
+const app = createApp(App);
 
-app.use(createPinia())
-app.use(router)
-app.use(PrimeVue)
+app.use(createPinia());
+app.use(router);
+app.use(PrimeVue);
 
-app.component('Button', Button)
+app.component('Button', Button);
+app.component('TabMenu', TabMenu);
 
-app.mount('#app')
+app.mount('#app');
