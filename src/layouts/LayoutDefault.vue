@@ -10,7 +10,7 @@ const actvie = ref(0);
 
 const items = ref([
   {
-    label: 'Home',
+    label: 'Base',
     icon: 'pi pi-fw pi-home',
     route: '/'
   }
