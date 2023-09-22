@@ -10,9 +10,14 @@ const actvie = ref(0);
 
 const items = ref([
   {
-    label: 'Base',
+    label: 'Base Yup',
     icon: 'pi pi-fw pi-home',
     route: '/'
+  },
+  {
+    label: 'Global Validators',
+    icon: 'pi pi-fw pi-home',
+    route: '/global_validators'
   }
 ]);
 
