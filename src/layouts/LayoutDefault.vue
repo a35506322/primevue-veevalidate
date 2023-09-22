@@ -45,5 +45,14 @@ watch(
       </router-link>
     </template>
   </TabMenu>
-  <RouterView></RouterView>
+  <div class="container p-5">
+    <RouterView></RouterView>
+  </div>
 </template>
+
+<style scoped>
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+</style>
