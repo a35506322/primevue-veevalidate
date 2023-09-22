@@ -4,14 +4,14 @@ primevue-veevalidate 範本專案
 
 ## 套件說明
 
-| 名稱                     | 功能      | 官方網站                                                         |
-| ------------------------ | --------- | ---------------------------------------------------------------- |
-| vite                     | 構件工具  | https://vitejs.dev/                                              |
-| vee-validate             | 驗證表單  | https://vee-validate.logaretm.com/v4/                            |
-| primevue                 | UI 元件庫 | https://primevue.org/                                            |
-| vite-plugin-vue-devtools | Debug     | https://github.com/webfansplz/vite-plugin-vue-devtools/tree/main |
-| Global Validators        | Debug     | https://vee-validate.logaretm.com/v4/guide/global-validators/    |
-| Localization (i18n)      | Debug     | https://vee-validate.logaretm.com/v4/guide/i18n/                 |
+| 名稱                     | 功能         | 官方網站                                                         |
+| ------------------------ | ------------ | ---------------------------------------------------------------- |
+| vite                     | 構件工具     | https://vitejs.dev/                                              |
+| vee-validate             | 驗證表單     | https://vee-validate.logaretm.com/v4/                            |
+| primevue                 | UI 元件庫    | https://primevue.org/                                            |
+| vite-plugin-vue-devtools | Debug        | https://github.com/webfansplz/vite-plugin-vue-devtools/tree/main |
+| Global Validators        | 驗證規則     | https://vee-validate.logaretm.com/v4/guide/global-validators/    |
+| Localization (i18n)      | 驗證規則i18n | https://vee-validate.logaretm.com/v4/guide/i18n/                 |
 
 ## 設定中文語系以及使用全域驗證器
 
